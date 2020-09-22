@@ -22,4 +22,3 @@ while True:
         total -= l[lt]
         lt += 1
 print(count)
-

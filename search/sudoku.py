@@ -14,7 +14,7 @@ def check(x):
             check3 = [0]*10
             for k in range(3):
                 for s in range(3):
-                    check3[x[i*3+k][i*3+s]] = 1
+                    check3[x[i*3+k][j*3+s]] = 1
             if sum(check3) != 9:
                 return False
     return True

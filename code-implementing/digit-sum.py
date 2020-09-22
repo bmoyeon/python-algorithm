@@ -12,10 +12,10 @@ def digit_sum(x):
         result += int(i)
     return result
 
-max_total = -2147000000
+largest = -2147000000
 for x in l:
     total = digit_sum(x)
-    if total > max_total:
-        max_total = total
+    if total > largest:
+        largest = total
         result = x
-print(x)
+print(result)

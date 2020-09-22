@@ -1,6 +1,5 @@
 #k번째 큰 수 구하기
 
-#solution
 n, k = map(int, input().split())
 l = list(map(int, input().split()))
 result = set()
